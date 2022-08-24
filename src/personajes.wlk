@@ -1,6 +1,7 @@
 import armas.*
 import elementos.*
 
+
 object floki{
 	var arma = ballesta
 	method encontrar(elemento){
@@ -21,7 +22,7 @@ object mario{
 		elemento.recibirTrabajo()
 		ultimoElementoVisitado = elemento
 	}
-	method estaFeliz() {
+	method estaFeliz() {return
 		valorRecolectado >= 50 || 
 		ultimoElementoVisitado.altura() >= 10
 	}

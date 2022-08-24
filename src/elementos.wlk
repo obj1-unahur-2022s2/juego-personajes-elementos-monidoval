@@ -2,6 +2,7 @@ import armas.*
 
 object castillo {
 	var nivelDefensa = 150
+	method nivelDefensa() = nivelDefensa
 	method altura() = 20
 	method recibirAtaque(unArma)
 	{nivelDefensa = 0.max(nivelDefensa - unArma.potenciaDelArma())}
@@ -29,7 +30,5 @@ object tipa{
 	method recibirAtaque(unArma){}
 	method valorOtorgado() = altura * 2
 	method recibirTrabajo() {
-		altura ++)
-	}
-	
+		altura ++}
 }

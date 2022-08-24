@@ -1,4 +1,8 @@
 import armas.*
+import elementos.*
+import jugadores.*
+import personajes.*
+
 
 test "ballesta esta cargada" {
 
